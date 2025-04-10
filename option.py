@@ -1,6 +1,10 @@
+streamlit
+scipy
 import streamlit as st
 from math import log, sqrt, exp
 from scipy.stats import norm
+
+
 
 # --- Black-Scholes Call Option Price ---
 def black_scholes_call_price(S, K, T, r, sigma):
